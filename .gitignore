@@ -1,0 +1,40 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.dll
+*.exe
+*.msi
+
+# Runtime output
+*.log
+logs/
+Logs/
+exports/
+Exports/
+debug/
+Debug/
+output/
+Output/
+
+# Local configuration / state
+*.tmp
+*.temp
+*.bak
+*~
+
+# Packaged releases
+*.zip
+*.7z
+*.rar
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
