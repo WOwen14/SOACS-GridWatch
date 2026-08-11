@@ -1,0 +1,25 @@
+<Window x:Class="SOACS.GridWatch.SplashWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SOACS GridWatch" Height="430" Width="540" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" ResizeMode="NoResize" Background="#050B10" Foreground="#D8FBFF" ShowInTaskbar="False" Topmost="True">
+    <Border CornerRadius="12" BorderBrush="#00E5FF" BorderThickness="1" Background="#050B10" Padding="18">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="220"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Source="Assets/SplashLogo.png" Stretch="Uniform" HorizontalAlignment="Center"/>
+            <TextBlock Grid.Row="1" Text="SOACS GRIDWATCH" Foreground="#00E5FF" FontFamily="Consolas" FontWeight="Bold" FontSize="24" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+            <TextBlock Grid.Row="2" Text="Network Operations Monitor" Foreground="#D8FBFF" FontFamily="Consolas" FontSize="15" HorizontalAlignment="Center" Margin="0,4,0,0"/>
+            <StackPanel Grid.Row="3" VerticalAlignment="Center" Margin="0,20,0,0">
+                <TextBlock Text="Initializing Monitoring Engine..." Foreground="#8FEFFF" FontFamily="Consolas" HorizontalAlignment="Center"/>
+                <TextBlock Text="Loading Configuration..." Foreground="#8FEFFF" FontFamily="Consolas" HorizontalAlignment="Center" Margin="0,4,0,0"/>
+                <TextBlock Text="Initializing Discovery Service..." Foreground="#8FEFFF" FontFamily="Consolas" HorizontalAlignment="Center" Margin="0,4,0,0"/>
+                <TextBlock Text="Ready" Foreground="#33FF85" FontFamily="Consolas" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,8,0,0"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
