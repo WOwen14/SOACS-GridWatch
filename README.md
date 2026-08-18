@@ -1,5 +1,9 @@
 # SOACS GridWatch
 
+<p align="center">
+  <img src="Assets/GitHub-Logo.jpg" alt="SOACS GridWatch" width="400">
+</p>
+
 **Mission-focused network monitoring with ICMP, TCP, UDP, ARP discovery, priority polling, and real-time operational awareness.**
 
 SOACS GridWatch is a Windows desktop network-monitoring application built for mission systems and disconnected environments where operators need immediate visibility into device and service availability without unnecessary complexity.
